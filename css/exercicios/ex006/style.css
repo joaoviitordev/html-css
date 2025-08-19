@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*
+# identifica id
+. identifica class
+
+class serve para classificar um grupo de elementos 
+que possuem algo em comum.
+
+id serve para classificar um único elemento.
+*/
+body{
+    background-color: #A678F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:#AB00F5;
+    text-align: center;
+}
+
+h2#html{  /* identificando por id="html" */
+    color: #F578A4;
+    background-color: #AB00F5;
+    text-align: right;
+}
+
+.css{ /* identificando com class="css" */
+    color: #F578EF;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.basico{
+    color: #78A8F5;
+}
+
+.inter{
+    color: #0113F5;
+}
+
+.avancado{
+    color: #78CFF5;
+}

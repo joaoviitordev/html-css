@@ -1,0 +1,16 @@
+body{
+    font: normal 16px arial;
+}
+
+h1{
+    text-align: center; /* alinhado ao centro */
+}
+
+h2{
+    text-align: right; /* alinhado a direita */
+} 
+
+p{
+    text-align: justify; /* alinhado a direita e a esquerda */
+    text-indent: 30px; /* espaço no inicio do parâgrafo */
+}

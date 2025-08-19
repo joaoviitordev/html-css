@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(90deg, #F28A5A, #F2A55A);
+}
+
+main{
+    background-color: white;
+    width: 1000px; /* nesse caso é o tamanho do background-color: white */
+    padding: 10px; /* acolchoamento: da um espaço entre a palavra e a borda da caixa */
+    margin: auto; /* vai centralizar independente do tamanho da tela */
+    border-radius: 20px; /* arredondar as bordas do background-color: white; */
+    box-shadow: 5px 5px 10px #f25a6c7e; /* primeiro parâmetro é quanto a sombra anda pro lado, depois quanto
+    a sombra anda pra cima ou pra baixo e por ultimo é o quanto ela de espalha */
+}
+
+h1{
+    color: #F26F5A;
+    text-align: center;
+    text-shadow: 1px 1px 2px #f26e5a;
+}
+
+h2{
+    color: #F2BB5A;
+}
+
+p{
+    text-align: justify;
+}
+
+
+

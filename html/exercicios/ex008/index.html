@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citações e Códigos</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-Fonte</h2>
+    <p>O comando <code>document.getElementById("teste")</code> 
+    é escrito em linguagem JavaScript a tag &lt;code&gt; ajuda a destacar o código.</p>
+
+    <pre> <!-- serve para a deixar o código arrumado com os espaçamentos -->
+        <code> <!-- exemplo de código em js, para funcionar teria que ter um input -->
+        
+    var num = "Digite um número"
+    if(num % 2 == 0){
+        console.log(`O número ${num} é PAR!`)
+    } else {
+        console.log(`O número ${num} é ÍMPAR!`)
+    }
+        </code>
+    </pre>
+
+    <h2>Citações Simples</h2>
+    <p>Como diria fulano de tal: <q>O computador é um burro muito rápido</q></p>
+    a tag &lt;q&gt; serve para citações.
+
+    <h2>Citações Completas</h2>
+    <p>Segundo Tim Berners-Lee,</p>
+    <blockquote cite="https://www.pensador.com/autor/tim_berners_lee/#google_vignette">
+        A web não está concluída, é apenas a ponta do iceberg. As novas mudanças irão balançar o mundo ainda mais.
+    </blockquote> <!--ele serve para fazer citções mais "claras" mais bem feitas e usando a classe cite tem como deixar a referencia. -->
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e 
+        <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+        essa tag &lt;abbr&gt; serve apenas para explicar quando o mouse passar encima do nome!
+</body>
+</html>
+
+<!-- a tag abbr é muito importante!!! -->

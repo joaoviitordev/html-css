@@ -1,0 +1,12 @@
+*{ /* configuração global das css */
+    height: 100%;
+}
+
+body{ /* 90deg significa o grau, mas pode ser escrito em ingles ex.: to rigth... */
+    background-image: linear-gradient(90deg, blue, rgb(140, 0, 255),rgb(204, 0, 255)); 
+    /* tem o gradiente na forma: radial-gradient(circle...) */
+    background-attachment: fixed; /* mesmo que role a tela o gradiente fica fixo */
+}
+
+
+

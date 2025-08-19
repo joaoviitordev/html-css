@@ -1,0 +1,26 @@
+div{
+    background-color: lightgray;
+    text-align: center;  /*alinhar ao centro*/
+    height: 200px; /*altura*/
+    width: 200px; /*largura*/
+    border: 1px solid black; /*borda de 1px*/
+    padding: 15px; /*espaçamento*/
+    display: inline-block; /*deixa os elementos um do lado do outro*/
+}
+
+div:hover{ /*isso é uma pseudo-classe
+    toda pseudo-classe é forma por ' : ' 
+    hover = "quando eu passar o mouse em cima"*/
+    background-color: lightgreen;
+}
+
+div > p { /*significa que a div tem um "filho"
+    que é o parâgrafo*/
+    display: none; /*esconde*/
+}
+
+div:hover > p { /*quando passar o mouse 
+    em cima ele vai mostrar o p*/
+    display: block; /*faz aparecer o p*/
+    color: red;
+}

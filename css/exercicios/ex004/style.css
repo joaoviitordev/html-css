@@ -1,0 +1,32 @@
+body{
+    
+    /* Medidas absolutas: 
+    cm, mm, in, px, pt, pc, respectivamente: (centimetro, milimetro,
+    polegada, pixel, ponto e paica)
+    
+    Medidas Relativas:
+    em, ex, rem, vw, vh, %
+
+    ! recomendações da W3C é usar "px" e "em" !
+    16px geralmente é = 1em
+    */
+
+    font-size: 16px; /* 16px geralmente é o tamanho padrão da font */
+    font-weight: bold; /* serve para mexer com negrito */
+    font-style: italic; /* colocar em italico */
+    text-decoration: underline; /* colocar sublinhado entre outros */
+
+    /* weight = peso, width = largura e height = altura {Não confundir!!!}*/
+}
+
+h1{
+    /* shorthand font:
+    font: font-style -> font-weight -> font-size -> font-family
+    */
+    font: italic bold 2em 'Times New Roman', Times, serif;
+}
+
+/* font-family é a familia de fontes onde a primeira fonte é a principal,
+mas se essa fonte não for compativel com o dispositivo a segunda fonte
+vai tomar o lugar da primeira, e se a segunda não funcionar a terceira fonte
+que é sempre uma fonte generica ela vai ser a principal. */
