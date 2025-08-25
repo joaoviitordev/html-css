@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários em HTML</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="arquivo.js" method="post" autocomplete="off">
+         
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    
+    </form>
+</body>
+</html>
+<!--métodos GET e POST, GET é o método padrão básicamente ele mostra
+os dados ali na barra de url, o método POST não mostra os dados na 
+barra de url.-->
+
+<!--o método get será usado quando os dados não são tão importantes
+ex.: nome, sobrenome, idade ... 
+não será usado quando for pedido cpf, senhas, dados de cartão, fotos, envio de arquivos...
+obs.: o get só pode ser usado num formulário de até 3000 letras-->
+
+<!--label serve para unir o nome com a caixa onde será escrito o nome-->
+
+<!--OBS.: "name" mais utilizado para php e "id" mais utilizado para JS-->
+
+<!--autocomplete "off" desabilita que complete automaticamente-->
+
+<!--action significa que quando eu clicar em enviar os dados serão enviados para o "arquivo.js" já envolvendo linguagem de programação-->
