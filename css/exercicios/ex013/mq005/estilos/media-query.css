@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 500px){
+    header > h1{
+        font-size: 1.9em;
+    }
+}
+
+@media screen and (min-width:768px){
+    header > h1{
+        font-size: 2.5em;
+    }
+
+    span#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block; /* os links ficam um ao lado do outro */
+    }
+    
+    menu > ul > li > a{
+        border-top: none;
+        box-shadow:inset 1px 1px 0px #7404BF;
+    }
+
+
+    main{
+        width: 65vw;
+    }
+}

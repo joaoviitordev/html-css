@@ -18,6 +18,7 @@ header > h1{
     padding: 30px;
     text-align: center;
     color: #F2EAE4;
+    text-shadow: 1px 1px 0px black;
 }
 
 span#burguer{
@@ -33,10 +34,6 @@ span#burguer{
 span#burguer:hover{
     color: #7404BF;
     background-color: #D8BDF2;
-}
-
-menu{
-    display: none;
 }
 
 menu > ul {
