@@ -7,31 +7,52 @@
     <style>
         div.conteiner{
             background-color: yellow;
-
             display: flex;
-            flex-direction: column;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
         }
 
-        div.itens{
+        div.item{
             background-color: turquoise;    
             border: 1px solid black;
-            padding: 10px;
-            text-align: center;          
+            text-align: center;
+            padding: 10px;        
         }
     </style>
 </head>
 <body>
     <div class="conteiner"> <!-- Elemento pai -->
-        <div class="itens">A</div> <!-- Elemento filho -->
-        <div class="itens">B</div>
-        <div class="itens">C</div>
-        <div class="itens">D</div>
-        <div class="itens">E</div>
-        <div class="itens">F</div>
-        <div class="itens">G</div>
+        <div class="item">Exemplo de bloco A</div> <!-- Elemento filho -->
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
     </div>
 </body>
 </html>
 
-<!-- Principal coisa no elemento pai é colocar display: flex; 
-para o elemento filho é flex:auto; -->
+<!-- Principal coisa no elemento pai é colocar display: flex; | para o elemento filho é flex:auto; -->
+
+<!-- CONCEITOS DE FLEX- DIRECTION -->
+
+<!-- flex-direction: row; da esquerda para direita (em linha) -->
+<!-- flex-direction: row-reverse; da direita pra esquerda (em linha) ex.: como os árabes leem -->
+<!-- flex-direction: column; os elemento se alinham em forma de coluna, de cima para baixo -->
+<!-- flex-direction: column-reverse; os elemento se alinham em forma de coluna, de baixo para cima -->
+
+<!-- EIXOS (axis) -->
+
+<!-- main-axis: é o eixo principal do elemento pai -->
+<!-- tirei print dos eixos para melhor entendimento -->
+
+<!-- CONCEITOS DE FLEX-WRAP -->
+
+<!-- flex-wrap: nowrap; vem como padrão, server para não haver quebra dos elementos filhos -->
+<!-- flex-wrap: wrap; serve para quebrar o elemento filho no cross-axis (no sentido do eixo transversal) -->
+<!-- flex-wrap: wrap-reverse; ele vai quebrar, mas no centido oposto do eixo transversal -->
+
+<!-- FLEX-FLOW -->
+
+<!-- flex-flow é o shorthand do flexbox -->
