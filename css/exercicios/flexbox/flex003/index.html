@@ -44,14 +44,15 @@
 <!-- flex-direction: row; da esquerda para direita (em linha) -->
 <!-- flex-direction: row-reverse; da direita pra esquerda (em linha) ex.: como os árabes leem -->
 <!-- flex-direction: column; os elemento se alinham em forma de coluna, de cima para baixo -->
-<!-- flex-direction: column-reverse; os elemento se alinham em forma de coluna, de baixo para cima 
--->
+<!-- flex-direction: column-reverse; os elemento se alinham em forma de coluna, de baixo para cima -->
+<!-- OBS.: ISSO TUDO É EM RELAÇÃO AO ELEMENTO PAI (CONTEINER) -->
 
 
 <!-- EIXOS (axis) -->
 
 <!-- main-axis: é o eixo principal do elemento pai -->
 <!-- tirei print dos eixos para melhor entendimento -->
+<!-- OBS.: ISSO TUDO É EM RELAÇÃO AO ELEMENTO PAI (CONTEINER) -->
 
 
 <!-- CONCEITOS DE FLEX-WRAP -->
@@ -59,11 +60,13 @@
 <!-- flex-wrap: nowrap; vem como padrão, server para não haver quebra dos elementos filhos -->
 <!-- flex-wrap: wrap; serve para quebrar o elemento filho no cross-axis (no sentido do eixo transversal) -->
 <!-- flex-wrap: wrap-reverse; ele vai quebrar, mas no centido oposto do eixo transversal -->
+<!-- OBS.: ISSO TUDO É EM RELAÇÃO AO ELEMENTO PAI (CONTEINER) -->
 
 
 <!-- FLEX-FLOW -->
 
 <!-- flex-flow é o shorthand do flexbox -->
+<!-- OBS.: ISSO TUDO É EM RELAÇÃO AO ELEMENTO PAI (CONTEINER) -->
 
 
 <!-- JUSTIFY-CONTENT -->
@@ -86,6 +89,10 @@ porem deixa um espaçamento igual entre todos os itens e o inicio e fim do eixo 
 
 <!-- justify-content: space-around; ele cria espaços de mesmo tamanho e dentro deles centraliza os itens -->
 
+<!-- Resumo: justify-content faz o alinhamento no main-axis (eixo principal) -->
+<!-- OBS.: ISSO TUDO É EM RELAÇÃO AO ELEMENTO PAI (CONTEINER) -->
+
+
 <!-- ALIGN-ITEMS -->
 
 <!-- o alinhamento se da através do cross-axis (eixo transversal) -->
@@ -95,3 +102,12 @@ porem deixa um espaçamento igual entre todos os itens e o inicio e fim do eixo 
 <!-- aling-items: flex-start; faz grudar sempre no inicio do eixo transversal -->
 
 <!-- aling-items: center; centraliza através do cross-axis -->
+
+<!-- Resumo: align-items faz o alinhamento no cross-axis (eixo transversal) -->
+<!-- OBS.: ISSO TUDO É EM RELAÇÃO AO ELEMENTO PAI (CONTEINER) -->
+
+
+<!-- CENTRALIZAÇÃO ABSOLUTA COM FLEXBOX -->
+
+<!-- basicamente é só colocar justify-content: center; e align-items: center; -->
+<!-- OBS.: ISSO TUDO É EM RELAÇÃO AO ELEMENTO PAI (CONTEINER) -->
